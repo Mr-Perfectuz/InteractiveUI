@@ -66,6 +66,7 @@
             android:layout_width="0dp" >
 
             <LinearLayout
+                android:id="@+id/bg_check"
                 android:orientation="vertical"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
@@ -105,6 +106,7 @@
             android:layout_width="0dp" >
 
             <LinearLayout
+                android:id="@+id/bg_link"
                 android:orientation="vertical"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
@@ -142,6 +144,7 @@
             android:layout_width="0dp" >
 
             <LinearLayout
+                android:id="@+id/bg_house"
                 android:orientation="vertical"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
