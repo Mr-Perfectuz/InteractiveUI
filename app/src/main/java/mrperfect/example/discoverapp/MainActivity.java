@@ -46,5 +46,51 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "You clicked New Link Saved Activity", Toast.LENGTH_SHORT).show();
             }
         });
+
+        backgroundHome = (LinearLayout) findViewById(R.id.bg_house);
+        backgroundHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MainActivity4.class);
+                startActivity(intent);
+
+                Toast.makeText(MainActivity.this, "You clicked New My Home Activity", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        backgroundcheck = (LinearLayout) findViewById(R.id.bg_check);
+        backgroundcheck.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
+
+                Toast.makeText(MainActivity.this, "You clicked New Arrival Activity", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        backgroundcheck = (LinearLayout) findViewById(R.id.bg_check);
+        backgroundcheck.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
+
+                Toast.makeText(MainActivity.this, "You clicked New Arrival Activity", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        backgroundcheck = (LinearLayout) findViewById(R.id.bg_check);
+        backgroundcheck.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
+
+                Toast.makeText(MainActivity.this, "You clicked New Arrival Activity", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
     }
 }
