@@ -11,6 +11,12 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     LinearLayout backgroundcheck;
+    LinearLayout backgroundLink;
+    LinearLayout backgroundHome;
+    LinearLayout backgroundFilm;
+    LinearLayout backgroundSaved;
+    LinearLayout backgroundDownload;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +31,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
 
                 Toast.makeText(MainActivity.this, "You clicked New Arrival Activity", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+
+        backgroundLink = (LinearLayout) findViewById(R.id.bg_link);
+        backgroundLink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MainActivity3.class);
+                startActivity(intent);
+
+                Toast.makeText(MainActivity.this, "You clicked New Link Saved Activity", Toast.LENGTH_SHORT).show();
             }
         });
     }
